@@ -1,0 +1,28 @@
+{
+  "name": "securemessage",
+  "version": "1.0.0",
+  "description": "Sample app to encrypt and decrypt messages using Ether keys",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsingh888/securemessage.git"
+  },
+  "keywords": [
+    "Ether",
+    "encryption"
+  ],
+  "author": "Rajeev Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsingh888/securemessage/issues"
+  },
+  "homepage": "https://github.com/rsingh888/securemessage#readme",
+  "dependencies": {
+    "bitcore-ecies": "^1.0.3",
+    "bitcore-message": "^1.0.4",
+    "crypto": "^1.0.1"
+  }
+}
